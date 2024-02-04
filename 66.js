@@ -7,7 +7,6 @@
  */
 var plusOne = function (digits) {
   let numAddition = BigInt(digits.join(""));
-
   return numAddition.toString().split("");
 };
 
